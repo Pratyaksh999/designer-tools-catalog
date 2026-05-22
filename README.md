@@ -1,4 +1,4 @@
-# 🎨 DesignKit - Curated Designer Tools Catalog
+# 🎨 DesignHour - Curated Designer Tools Catalog
 
 A beautiful, modern catalog of design tools, animation libraries, and UI components with a Pinterest-inspired aesthetic. Built with Next.js 14, Tailwind CSS, and Framer Motion.
 
