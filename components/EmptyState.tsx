@@ -111,13 +111,13 @@ export default function EmptyState({ searchQuery, hasFilters, onClearFilters }: 
           Suggestions
         </p>
         <div style={{ display: "flex", gap: 12, flexWrap: "wrap", justifyContent: "center" }}>
-          <span className="text-sm text-gray-600 dark:text-gray-400 dark:bg-[rgba(255,255,255,0.05)]" style={{ padding: "6px 12px", borderRadius: 8, background: "rgba(0,0,0,0.03)" }}>
+          <span className="text-sm text-gray-600 dark:text-gray-400 bg-[rgba(0,0,0,0.03)] dark:bg-[rgba(255,255,255,0.05)]" style={{ padding: "6px 12px", borderRadius: 8 }}>
             • Try different keywords
           </span>
-          <span className="text-sm text-gray-600 dark:text-gray-400 dark:bg-[rgba(255,255,255,0.05)]" style={{ padding: "6px 12px", borderRadius: 8, background: "rgba(0,0,0,0.03)" }}>
+          <span className="text-sm text-gray-600 dark:text-gray-400 bg-[rgba(0,0,0,0.03)] dark:bg-[rgba(255,255,255,0.05)]" style={{ padding: "6px 12px", borderRadius: 8 }}>
             • Browse all categories
           </span>
-          <span className="text-sm text-gray-600 dark:text-gray-400 dark:bg-[rgba(255,255,255,0.05)]" style={{ padding: "6px 12px", borderRadius: 8, background: "rgba(0,0,0,0.03)" }}>
+          <span className="text-sm text-gray-600 dark:text-gray-400 bg-[rgba(0,0,0,0.03)] dark:bg-[rgba(255,255,255,0.05)]" style={{ padding: "6px 12px", borderRadius: 8 }}>
             • Check your spelling
           </span>
         </div>
