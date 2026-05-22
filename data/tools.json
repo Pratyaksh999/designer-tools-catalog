@@ -1,0 +1,1131 @@
+{
+  "categories": [
+    "Animation",
+    "Micro-interactions",
+    "Components",
+    "Documentation",
+    "Design-to-Code",
+    "Inspiration"
+  ],
+  "tools": [
+    {
+      "id": "aceternity",
+      "name": "Aceternity UI",
+      "description": "Modern UI components with heavy focus on animations. Built with Framer Motion and Tailwind CSS. Premium feel for React apps.",
+      "url": "https://ui.aceternity.com/",
+      "category": "Components",
+      "tags": [
+        "react",
+        "framer-motion",
+        "tailwind",
+        "animated",
+        "modern"
+      ],
+      "color": "#8B5CF6",
+      "pricing": "freemium"
+    },
+    {
+      "id": "anima",
+      "name": "Anima",
+      "description": "Convert Figma, Adobe XD, and Sketch designs to React, Vue, or HTML code. AI-powered design-to-code with responsive layouts.",
+      "url": "https://www.animaapp.com/",
+      "category": "Design-to-Code",
+      "tags": [
+        "figma",
+        "react",
+        "converter",
+        "ai",
+        "responsive"
+      ],
+      "pricing": "freemium",
+      "popular": true
+    },
+    {
+      "id": "animate-css",
+      "name": "Animate.css",
+      "description": "Library of ready-to-use cross-browser CSS animations. Attention seekers, entrances, exits, and more. Just add class names.",
+      "url": "https://animate.style/",
+      "category": "Micro-interactions",
+      "tags": [
+        "css",
+        "animations",
+        "cross-browser",
+        "simple"
+      ],
+      "color": "#FFC107",
+      "pricing": "free",
+      "popular": true
+    },
+    {
+      "id": "anime-js",
+      "name": "Anime.js",
+      "description": "Lightweight JavaScript animation library. Works with CSS, SVG, DOM attributes, and JavaScript Objects. Simple API with powerful features.",
+      "url": "https://animejs.com/",
+      "category": "Animation",
+      "tags": [
+        "javascript",
+        "css",
+        "svg",
+        "lightweight",
+        "simple"
+      ],
+      "color": "#F35626",
+      "pricing": "free",
+      "dateAdded": "2026-05-15"
+    },
+    {
+      "id": "ant-design",
+      "name": "Ant Design",
+      "description": "Enterprise-class UI design system with React components. Rich component library perfect for admin dashboards and data-heavy applications.",
+      "url": "https://ant.design/",
+      "category": "Components",
+      "tags": [
+        "react",
+        "enterprise",
+        "components",
+        "admin",
+        "design-system"
+      ],
+      "pricing": "free",
+      "popular": true
+    },
+    {
+      "id": "aos",
+      "name": "AOS (Animate On Scroll)",
+      "description": "Scroll-triggered animations made easy. Simple data attributes, no JavaScript required. Great for landing pages and marketing sites.",
+      "url": "https://michalsnik.github.io/aos/",
+      "category": "Animation",
+      "tags": [
+        "scroll",
+        "data-attributes",
+        "simple",
+        "landing-pages"
+      ],
+      "color": "#2196F3",
+      "pricing": "free",
+      "popular": true
+    },
+    {
+      "id": "atropos",
+      "name": "Atropos",
+      "description": "Stunning touch-friendly 3D parallax hover effects. Lightweight, dependency-free library for creating depth and immersion.",
+      "url": "https://atroposjs.com/",
+      "category": "Micro-interactions",
+      "tags": [
+        "parallax",
+        "3d",
+        "hover",
+        "touch",
+        "depth"
+      ],
+      "pricing": "free",
+      "dateAdded": "2026-05-03"
+    },
+    {
+      "id": "awwwards",
+      "name": "Awwwards",
+      "description": "Recognizes the talent and effort of the best web designers worldwide. Daily inspiration from award-winning websites.",
+      "url": "https://www.awwwards.com/",
+      "category": "Inspiration",
+      "tags": [
+        "awards",
+        "showcase",
+        "inspiration",
+        "webdesign",
+        "gallery"
+      ],
+      "pricing": "free",
+      "popular": true
+    },
+    {
+      "id": "behance",
+      "name": "Behance",
+      "description": "Adobe's creative showcase platform. Discover portfolios from designers worldwide and showcase your own creative work.",
+      "url": "https://www.behance.net/",
+      "category": "Inspiration",
+      "tags": [
+        "portfolio",
+        "showcase",
+        "creative",
+        "adobe",
+        "community"
+      ],
+      "pricing": "free"
+    },
+    {
+      "id": "builder-io",
+      "name": "Builder.io",
+      "description": "Visual development platform for building and optimizing digital experiences. Drag-and-drop editor with headless CMS capabilities.",
+      "url": "https://www.builder.io/",
+      "category": "Design-to-Code",
+      "tags": [
+        "visual",
+        "cms",
+        "nocode",
+        "headless",
+        "optimization"
+      ],
+      "pricing": "freemium"
+    },
+    {
+      "id": "chakra-ui",
+      "name": "Chakra UI",
+      "description": "Simple, modular, and accessible React component library. Built-in dark mode, responsive styles, and excellent developer experience.",
+      "url": "https://chakra-ui.com/",
+      "category": "Components",
+      "tags": [
+        "react",
+        "accessible",
+        "darkmode",
+        "components",
+        "modular"
+      ],
+      "pricing": "free",
+      "popular": true
+    },
+    {
+      "id": "codepen",
+      "name": "CodePen",
+      "description": "Social development environment for front-end code. Discover, create, and share HTML, CSS, and JavaScript snippets. Huge inspiration library.",
+      "url": "https://codepen.io/",
+      "category": "Inspiration",
+      "tags": [
+        "html",
+        "css",
+        "javascript",
+        "social",
+        "snippets"
+      ],
+      "featured": true,
+      "color": "#1E1F26",
+      "pricing": "freemium"
+    },
+    {
+      "id": "css-tricks",
+      "name": "CSS-Tricks",
+      "description": "Daily articles about CSS, HTML, JavaScript, and web design. Tutorials, guides, and the Almanac reference for all things web.",
+      "url": "https://css-tricks.com/",
+      "category": "Inspiration",
+      "tags": [
+        "css",
+        "tutorials",
+        "articles",
+        "reference",
+        "learning"
+      ],
+      "pricing": "free",
+      "popular": true
+    },
+    {
+      "id": "cssdb",
+      "name": "cssdb",
+      "description": "Comprehensive catalog of CSS features and their implementation status. Track what's available across browsers.",
+      "url": "https://cssdb.org/",
+      "category": "Inspiration",
+      "tags": [
+        "css",
+        "features",
+        "browser-support",
+        "reference",
+        "standards"
+      ],
+      "pricing": "free",
+      "dateAdded": "2026-05-18"
+    },
+    {
+      "id": "daisyui",
+      "name": "DaisyUI",
+      "description": "Tailwind CSS component library with beautiful, customizable components. 30+ themes and pure CSS implementation.",
+      "url": "https://daisyui.com/",
+      "category": "Components",
+      "tags": [
+        "tailwind",
+        "css",
+        "components",
+        "themes",
+        "pure-css"
+      ],
+      "pricing": "free",
+      "popular": true,
+      "dateAdded": "2026-05-10"
+    },
+    {
+      "id": "docusaurus",
+      "name": "Docusaurus",
+      "description": "Build optimized documentation websites by Meta. MDX support, versioning, i18n, and blazing-fast static site generation.",
+      "url": "https://docusaurus.io/",
+      "category": "Documentation",
+      "tags": [
+        "documentation",
+        "static",
+        "react",
+        "mdx",
+        "versioning"
+      ],
+      "pricing": "free",
+      "popular": true
+    },
+    {
+      "id": "docz",
+      "name": "Docz",
+      "description": "Documentation site generator powered by MDX. Zero config, blazing fast, and easy to customize. Perfect for design systems.",
+      "url": "https://www.docz.site/",
+      "category": "Documentation",
+      "tags": [
+        "mdx",
+        "documentation",
+        "gatsby",
+        "design-systems"
+      ],
+      "color": "#0B5FFF",
+      "pricing": "freemium"
+    },
+    {
+      "id": "dribbble",
+      "name": "Dribbble",
+      "description": "Community of designers sharing screenshots of their work. Discover UI/UX trends, animations, and micro-interactions. Massive inspiration source.",
+      "url": "https://dribbble.com/",
+      "category": "Inspiration",
+      "tags": [
+        "design",
+        "ui-ux",
+        "community",
+        "trends",
+        "showcase"
+      ],
+      "featured": true,
+      "color": "#EA4C89",
+      "pricing": "freemium"
+    },
+    {
+      "id": "embla-carousel",
+      "name": "Embla Carousel",
+      "description": "Lightweight carousel library with fluid touch interactions. Framework-agnostic with plugins for React, Vue, and more.",
+      "url": "https://www.embla-carousel.com/",
+      "category": "Components",
+      "tags": [
+        "carousel",
+        "touch",
+        "lightweight",
+        "framework-agnostic",
+        "accessible"
+      ],
+      "pricing": "free",
+      "dateAdded": "2026-05-15"
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "description": "Collaborative interface design tool with prototyping capabilities. Industry standard for UI/UX design. Inspect code, export assets.",
+      "url": "https://www.figma.com/",
+      "category": "Design-to-Code",
+      "tags": [
+        "design",
+        "prototyping",
+        "collaboration",
+        "ui-ux"
+      ],
+      "featured": true,
+      "color": "#F24E1E",
+      "pricing": "freemium"
+    },
+    {
+      "id": "framer",
+      "name": "Framer",
+      "description": "Design tool that generates production-ready React code. Interactive prototypes with real components. Design and code in one tool.",
+      "url": "https://www.framer.com/",
+      "category": "Design-to-Code",
+      "tags": [
+        "design",
+        "react",
+        "code-export",
+        "prototyping"
+      ],
+      "featured": true,
+      "color": "#05F",
+      "pricing": "freemium"
+    },
+    {
+      "id": "framer-motion",
+      "name": "Framer Motion",
+      "description": "Production-ready motion library for React. Declarative animations, gestures, variants, and layout animations. Perfect for interactive UI components.",
+      "url": "https://www.framer.com/motion/",
+      "category": "Animation",
+      "tags": [
+        "react",
+        "animation",
+        "gestures",
+        "layout",
+        "declarative"
+      ],
+      "featured": true,
+      "color": "#0055FF",
+      "pricing": "free",
+      "popular": true
+    },
+    {
+      "id": "gitbook",
+      "name": "GitBook",
+      "description": "Modern documentation platform for teams. Collaborative editing, API docs, changelogs, and beautiful published sites.",
+      "url": "https://www.gitbook.com/",
+      "category": "Documentation",
+      "tags": [
+        "documentation",
+        "collaboration",
+        "api",
+        "team",
+        "publishing"
+      ],
+      "pricing": "freemium"
+    },
+    {
+      "id": "gsap",
+      "name": "GSAP (GreenSock)",
+      "description": "Professional-grade animation library for JavaScript. Smooth 60fps animations, timeline control, and advanced sequencing. Industry standard for web animations.",
+      "url": "https://greensock.com/gsap/",
+      "category": "Animation",
+      "tags": [
+        "animation",
+        "javascript",
+        "timeline",
+        "performance",
+        "professional"
+      ],
+      "featured": true,
+      "color": "#88CE02",
+      "pricing": "free",
+      "popular": true
+    },
+    {
+      "id": "gsap-scrolltrigger",
+      "name": "ScrollTrigger",
+      "description": "GSAP plugin for scroll-based animations. Pin elements, scrub animations, and create stunning scroll experiences with ease.",
+      "url": "https://greensock.com/scrolltrigger/",
+      "category": "Animation",
+      "tags": [
+        "scroll",
+        "gsap",
+        "pin",
+        "scrub",
+        "timeline"
+      ],
+      "pricing": "free",
+      "popular": true
+    },
+    {
+      "id": "headless-ui",
+      "name": "Headless UI",
+      "description": "Completely unstyled, fully accessible UI components by Tailwind CSS. Perfect for building custom designs with accessibility built in.",
+      "url": "https://headlessui.com/",
+      "category": "Components",
+      "tags": [
+        "react",
+        "vue",
+        "tailwind",
+        "accessible",
+        "unstyled"
+      ],
+      "featured": true,
+      "color": "#06B6D4",
+      "pricing": "free",
+      "dateAdded": "2026-05-20"
+    },
+    {
+      "id": "hover-css",
+      "name": "Hover.css",
+      "description": "Collection of CSS3 hover effects. Copy-paste ready. Includes effects for links, buttons, logos, SVG, and images.",
+      "url": "https://ianlunn.github.io/Hover/",
+      "category": "Micro-interactions",
+      "tags": [
+        "css",
+        "hover",
+        "effects",
+        "buttons",
+        "links"
+      ],
+      "featured": true,
+      "color": "#FF6B6B",
+      "pricing": "free",
+      "popular": true
+    },
+    {
+      "id": "keen-slider",
+      "name": "Keen Slider",
+      "description": "Lightweight, flexible slider with native touch/swipe behavior. No dependencies, fully TypeScript, and framework agnostic.",
+      "url": "https://keen-slider.io/",
+      "category": "Components",
+      "tags": [
+        "slider",
+        "touch",
+        "typescript",
+        "lightweight",
+        "framework-agnostic"
+      ],
+      "pricing": "free",
+      "dateAdded": "2026-05-02"
+    },
+    {
+      "id": "ladle",
+      "name": "Ladle",
+      "description": "Faster Storybook alternative powered by Vite. Drop-in replacement with minimal config. Lightning-fast hot module replacement.",
+      "url": "https://ladle.dev/",
+      "category": "Documentation",
+      "tags": [
+        "vite",
+        "storybook",
+        "fast",
+        "components"
+      ],
+      "color": "#4B32C3",
+      "pricing": "freemium"
+    },
+    {
+      "id": "lottie",
+      "name": "Lottie",
+      "description": "Library by Airbnb for rendering After Effects animations as JSON. Lightweight, scalable, and programmatically controllable animations.",
+      "url": "https://airbnb.design/lottie/",
+      "category": "Animation",
+      "tags": [
+        "after-effects",
+        "json",
+        "airbnb",
+        "mobile",
+        "web"
+      ],
+      "featured": true,
+      "color": "#00DDB3",
+      "pricing": "free",
+      "popular": true
+    },
+    {
+      "id": "lottiefiles",
+      "name": "LottieFiles",
+      "description": "Marketplace for free and premium Lottie animations. Editor, plugins for Figma/After Effects. Huge library of ready-to-use animations.",
+      "url": "https://lottiefiles.com/",
+      "category": "Inspiration",
+      "tags": [
+        "lottie",
+        "animations",
+        "marketplace",
+        "after-effects"
+      ],
+      "color": "#00DDB3",
+      "pricing": "freemium"
+    },
+    {
+      "id": "magic-ui",
+      "name": "Magic UI",
+      "description": "Collection of animated React components. Built with Framer Motion. Copy-paste, customize, and use in your projects.",
+      "url": "https://magicui.design/",
+      "category": "Components",
+      "tags": [
+        "react",
+        "animated",
+        "framer-motion",
+        "copy-paste"
+      ],
+      "color": "#A78BFA",
+      "pricing": "paid"
+    },
+    {
+      "id": "mantine",
+      "name": "Mantine",
+      "description": "Feature-rich React component library with 100+ customizable components. Hooks, forms, notifications, and more out of the box.",
+      "url": "https://mantine.dev/",
+      "category": "Components",
+      "tags": [
+        "react",
+        "components",
+        "hooks",
+        "forms",
+        "typescript"
+      ],
+      "pricing": "free",
+      "dateAdded": "2026-05-11"
+    },
+    {
+      "id": "material-ui",
+      "name": "Material-UI (MUI)",
+      "description": "Comprehensive React component library implementing Google's Material Design. Production-ready components with extensive customization.",
+      "url": "https://mui.com/",
+      "category": "Components",
+      "tags": [
+        "react",
+        "material",
+        "components",
+        "ui",
+        "design-system"
+      ],
+      "pricing": "free",
+      "popular": true,
+      "featured": true
+    },
+    {
+      "id": "microinteractions",
+      "name": "Microinteractions.com",
+      "description": "Resources and book by Dan Saffer on designing micro-interactions. Theory, examples, and best practices for delightful UX details.",
+      "url": "http://microinteractions.com/",
+      "category": "Inspiration",
+      "tags": [
+        "theory",
+        "book",
+        "best-practices",
+        "ux"
+      ],
+      "color": "#4A90E2",
+      "pricing": "freemium"
+    },
+    {
+      "id": "mobbin",
+      "name": "Mobbin",
+      "description": "Latest mobile and web design patterns from top companies. Save and organize screens, flows, and design inspiration.",
+      "url": "https://mobbin.com/",
+      "category": "Inspiration",
+      "tags": [
+        "mobile",
+        "patterns",
+        "flows",
+        "inspiration",
+        "app-design"
+      ],
+      "pricing": "freemium",
+      "popular": true
+    },
+    {
+      "id": "motion",
+      "name": "Motion for React",
+      "description": "Framer Motion alternative with even smaller bundle size. Simple API for React animations and gestures.",
+      "url": "https://motion.dev/docs/react",
+      "category": "Animation",
+      "tags": [
+        "react",
+        "lightweight",
+        "simple",
+        "alternative"
+      ],
+      "color": "#7C3AED",
+      "pricing": "freemium"
+    },
+    {
+      "id": "motion-canvas",
+      "name": "Motion Canvas",
+      "description": "TypeScript library for creating animated videos programmatically. Code-first approach to motion graphics with real-time preview.",
+      "url": "https://motioncanvas.io/",
+      "category": "Animation",
+      "tags": [
+        "typescript",
+        "video",
+        "programmatic",
+        "motion-graphics",
+        "code"
+      ],
+      "pricing": "free",
+      "dateAdded": "2026-05-04"
+    },
+    {
+      "id": "motion-one",
+      "name": "Motion One",
+      "description": "Modern, lightweight animation library. 5KB, built on Web Animations API. Fast alternative to GSAP with similar features.",
+      "url": "https://motion.dev/",
+      "category": "Animation",
+      "tags": [
+        "lightweight",
+        "web-animations",
+        "performance",
+        "modern"
+      ],
+      "color": "#FF008C",
+      "pricing": "free",
+      "dateAdded": "2026-05-15"
+    },
+    {
+      "id": "motion-ui",
+      "name": "Motion UI",
+      "description": "Sass library for creating flexible UI transitions and animations. Built by the Foundation team. Slide, fade, hinge, and more.",
+      "url": "https://zurb.com/playground/motion-ui",
+      "category": "Micro-interactions",
+      "tags": [
+        "sass",
+        "transitions",
+        "foundation",
+        "ui"
+      ],
+      "color": "#1779BA",
+      "pricing": "free"
+    },
+    {
+      "id": "nextra",
+      "name": "Nextra",
+      "description": "Simple, powerful, and flexible Next.js based documentation framework. Built-in search, syntax highlighting, and beautiful themes.",
+      "url": "https://nextra.site/",
+      "category": "Documentation",
+      "tags": [
+        "nextjs",
+        "documentation",
+        "mdx",
+        "search",
+        "themes"
+      ],
+      "pricing": "free",
+      "dateAdded": "2026-05-08"
+    },
+    {
+      "id": "particles-js",
+      "name": "Particles.js",
+      "description": "Lightweight library for creating particles. Perfect for background effects and interactive particle systems. Highly customizable.",
+      "url": "https://vincentgarreau.com/particles.js/",
+      "category": "Micro-interactions",
+      "tags": [
+        "particles",
+        "background",
+        "effects",
+        "canvas"
+      ],
+      "color": "#232741",
+      "pricing": "free"
+    },
+    {
+      "id": "pattern-monster",
+      "name": "Pattern Monster",
+      "description": "Generate beautiful SVG patterns for backgrounds. Customize colors, scale, and download instantly. Free to use.",
+      "url": "https://pattern.monster/",
+      "category": "Inspiration",
+      "tags": [
+        "patterns",
+        "svg",
+        "backgrounds",
+        "generator",
+        "free"
+      ],
+      "pricing": "free",
+      "dateAdded": "2026-05-17"
+    },
+    {
+      "id": "popmotion",
+      "name": "Popmotion",
+      "description": "Functional, flexible JavaScript animation library. Spring physics, tweens, and keyframes. Powers Framer Motion under the hood.",
+      "url": "https://popmotion.io/",
+      "category": "Animation",
+      "tags": [
+        "functional",
+        "physics",
+        "springs",
+        "tweens"
+      ],
+      "color": "#FB118E",
+      "pricing": "free"
+    },
+    {
+      "id": "protopie",
+      "name": "ProtoPie",
+      "description": "Advanced prototyping tool for micro-interactions. Sensors, conditions, and formulas for high-fidelity prototypes without code.",
+      "url": "https://www.protopie.io/",
+      "category": "Design-to-Code",
+      "tags": [
+        "prototyping",
+        "micro-interactions",
+        "sensors",
+        "no-code"
+      ],
+      "color": "#00D4AA",
+      "pricing": "paid"
+    },
+    {
+      "id": "radix",
+      "name": "Radix UI",
+      "description": "Unstyled, accessible component primitives for React. Build high-quality design systems and web apps. WAI-ARIA compliant.",
+      "url": "https://www.radix-ui.com/",
+      "category": "Components",
+      "tags": [
+        "react",
+        "accessible",
+        "unstyled",
+        "primitives",
+        "aria"
+      ],
+      "featured": true,
+      "color": "#161618",
+      "pricing": "freemium",
+      "dateAdded": "2026-05-20"
+    },
+    {
+      "id": "react-spring",
+      "name": "React Spring",
+      "description": "Spring-physics based animation library for React. Natural, fluid animations with interactive interrupts. High performance.",
+      "url": "https://www.react-spring.dev/",
+      "category": "Animation",
+      "tags": [
+        "react",
+        "springs",
+        "physics",
+        "interactive"
+      ],
+      "color": "#FF6B6B",
+      "pricing": "free"
+    },
+    {
+      "id": "readme-so",
+      "name": "readme.so",
+      "description": "Simple editor for creating beautiful README files. Markdown templates, drag-and-drop sections, and live preview.",
+      "url": "https://readme.so/",
+      "category": "Documentation",
+      "tags": [
+        "readme",
+        "markdown",
+        "editor",
+        "github",
+        "templates"
+      ],
+      "pricing": "free",
+      "dateAdded": "2026-05-16"
+    },
+    {
+      "id": "rellax",
+      "name": "Rellax.js",
+      "description": "Buttery smooth parallax scrolling library. Lightweight and performant. Perfect for creating depth and visual interest.",
+      "url": "https://dixonandmoe.com/rellax/",
+      "category": "Animation",
+      "tags": [
+        "parallax",
+        "scroll",
+        "smooth",
+        "lightweight"
+      ],
+      "color": "#7B68EE",
+      "pricing": "free",
+      "dateAdded": "2026-05-15"
+    },
+    {
+      "id": "rive",
+      "name": "Rive",
+      "description": "Next-generation interactive animation tool. Real-time, smaller than Lottie, with state machines and input listeners. Game-changer for UI.",
+      "url": "https://rive.app/",
+      "category": "Animation",
+      "tags": [
+        "interactive",
+        "state-machines",
+        "real-time",
+        "modern"
+      ],
+      "featured": true,
+      "color": "#FF3366",
+      "pricing": "freemium"
+    },
+    {
+      "id": "rough-notation",
+      "name": "Rough Notation",
+      "description": "Animate hand-drawn annotations on web pages. Circle, underline, bracket, and highlight text with a sketchy style.",
+      "url": "https://roughnotation.com/",
+      "category": "Micro-interactions",
+      "tags": [
+        "annotation",
+        "sketch",
+        "highlight",
+        "handdrawn",
+        "svg"
+      ],
+      "pricing": "free",
+      "popular": true,
+      "dateAdded": "2026-05-12"
+    },
+    {
+      "id": "scrollreveal",
+      "name": "ScrollReveal",
+      "description": "JavaScript library for easy scroll animations. Reveal elements as they enter the viewport. Smooth and configurable with declarative API.",
+      "url": "https://scrollrevealjs.org/",
+      "category": "Micro-interactions",
+      "tags": [
+        "scroll",
+        "reveal",
+        "viewport",
+        "declarative"
+      ],
+      "color": "#41B883",
+      "pricing": "freemium"
+    },
+    {
+      "id": "shadcn-ui",
+      "name": "Shadcn/ui",
+      "description": "Beautifully designed components built with Radix UI and Tailwind CSS. Copy and paste into your apps. Customizable and open source.",
+      "url": "https://ui.shadcn.com/",
+      "category": "Components",
+      "tags": [
+        "react",
+        "radix",
+        "tailwind",
+        "copy-paste",
+        "beautiful"
+      ],
+      "featured": true,
+      "color": "#000000",
+      "pricing": "paid"
+    },
+    {
+      "id": "site-inspire",
+      "name": "SiteInspire",
+      "description": "Showcase of the finest web and interactive design. Curated collection organized by style, type, and subject.",
+      "url": "https://www.siteinspire.com/",
+      "category": "Inspiration",
+      "tags": [
+        "showcase",
+        "webdesign",
+        "curated",
+        "interactive",
+        "gallery"
+      ],
+      "pricing": "free",
+      "dateAdded": "2026-05-05"
+    },
+    {
+      "id": "snap-svg",
+      "name": "Snap.svg",
+      "description": "Modern SVG JavaScript library by Adobe. Successor to Raphaël. Works with existing SVG and creates new elements.",
+      "url": "http://snapsvg.io/",
+      "category": "Animation",
+      "tags": [
+        "svg",
+        "adobe",
+        "modern",
+        "javascript"
+      ],
+      "color": "#EA0055",
+      "pricing": "freemium"
+    },
+    {
+      "id": "spline",
+      "name": "Spline",
+      "description": "Design and collaborate on 3D content in the browser. Export to web, export code, or embed interactive 3D designs directly.",
+      "url": "https://spline.design/",
+      "category": "Design-to-Code",
+      "tags": [
+        "3d",
+        "design",
+        "interactive",
+        "webgl",
+        "collaboration"
+      ],
+      "pricing": "freemium",
+      "popular": true,
+      "dateAdded": "2026-05-21"
+    },
+    {
+      "id": "splitting-js",
+      "name": "Splitting.js",
+      "description": "JavaScript micro-library for splitting text and elements. Enables character-by-character or word-by-word animations. Tiny but powerful.",
+      "url": "https://splitting.js.org/",
+      "category": "Micro-interactions",
+      "tags": [
+        "text",
+        "splitting",
+        "characters",
+        "words"
+      ],
+      "color": "#667EEA",
+      "pricing": "free"
+    },
+    {
+      "id": "storybook",
+      "name": "Storybook",
+      "description": "Frontend workshop for building and testing UI components in isolation. Industry standard for component development and documentation.",
+      "url": "https://storybook.js.org/",
+      "category": "Documentation",
+      "tags": [
+        "components",
+        "testing",
+        "documentation",
+        "workshop",
+        "isolation"
+      ],
+      "featured": true,
+      "color": "#FF4785",
+      "pricing": "freemium"
+    },
+    {
+      "id": "styleguidist",
+      "name": "React Styleguidist",
+      "description": "Isolated React component development environment with living style guide. Write documentation in Markdown and see components live.",
+      "url": "https://react-styleguidist.js.org/",
+      "category": "Documentation",
+      "tags": [
+        "react",
+        "components",
+        "markdown",
+        "living-style-guide"
+      ],
+      "color": "#F28B82",
+      "pricing": "freemium"
+    },
+    {
+      "id": "svg-js",
+      "name": "SVG.js",
+      "description": "Lightweight library for manipulating and animating SVG. Path morphing, easy syntax, small footprint. Great for icons and illustrations.",
+      "url": "https://svgjs.dev/",
+      "category": "Animation",
+      "tags": [
+        "svg",
+        "manipulation",
+        "lightweight",
+        "morphing"
+      ],
+      "color": "#FF9900",
+      "pricing": "freemium"
+    },
+    {
+      "id": "swiper",
+      "name": "Swiper",
+      "description": "Modern mobile touch slider with hardware accelerated transitions. Most modern and feature-rich slider library. Works everywhere.",
+      "url": "https://swiperjs.com/",
+      "category": "Components",
+      "tags": [
+        "slider",
+        "carousel",
+        "mobile",
+        "touch"
+      ],
+      "color": "#6332F6",
+      "pricing": "freemium"
+    },
+    {
+      "id": "teleporthq",
+      "name": "TeleportHQ",
+      "description": "Collaborative front-end platform with visual builder and code generator. Real-time collaboration and multi-framework export.",
+      "url": "https://teleporthq.io/",
+      "category": "Design-to-Code",
+      "tags": [
+        "visual",
+        "collaboration",
+        "code-generator",
+        "framework",
+        "realtime"
+      ],
+      "pricing": "freemium",
+      "dateAdded": "2026-05-06"
+    },
+    {
+      "id": "three-js",
+      "name": "Three.js",
+      "description": "JavaScript 3D library. Create GPU-accelerated 3D animations in the browser. WebGL made easy with powerful abstraction.",
+      "url": "https://threejs.org/",
+      "category": "Animation",
+      "tags": [
+        "3d",
+        "webgl",
+        "gpu",
+        "graphics"
+      ],
+      "featured": true,
+      "color": "#049EF4",
+      "pricing": "free"
+    },
+    {
+      "id": "tilt-js",
+      "name": "Tilt.js",
+      "description": "Smooth 3D tilt effect for cards and images. Creates an engaging parallax hover effect with customizable glare and perspective.",
+      "url": "https://gijsroge.github.io/tilt.js/",
+      "category": "Micro-interactions",
+      "tags": [
+        "tilt",
+        "3d",
+        "hover",
+        "parallax",
+        "card"
+      ],
+      "pricing": "free",
+      "dateAdded": "2026-05-14"
+    },
+    {
+      "id": "typed-js",
+      "name": "Typed.js",
+      "description": "JavaScript typing animation library. Create typewriter effects with customizable speed, backspacing, and looping. Simple and effective.",
+      "url": "https://mattboldt.com/demos/typed-js/",
+      "category": "Micro-interactions",
+      "tags": [
+        "typing",
+        "typewriter",
+        "text",
+        "animation"
+      ],
+      "color": "#E7484D",
+      "pricing": "freemium"
+    },
+    {
+      "id": "ui-movement",
+      "name": "UI Movement",
+      "description": "Curated collection of UI animations and interactions. Filter by type, platform, and style. Daily inspiration for designers and developers.",
+      "url": "https://uimovement.com/",
+      "category": "Inspiration",
+      "tags": [
+        "animations",
+        "interactions",
+        "curated",
+        "daily"
+      ],
+      "color": "#FF6B6B",
+      "pricing": "freemium"
+    },
+    {
+      "id": "vitepress",
+      "name": "VitePress",
+      "description": "Vite-powered static site generator for documentation. Lightning-fast HMR, Vue components in markdown, and minimal configuration.",
+      "url": "https://vitepress.dev/",
+      "category": "Documentation",
+      "tags": [
+        "vite",
+        "vue",
+        "documentation",
+        "static",
+        "fast"
+      ],
+      "pricing": "free",
+      "dateAdded": "2026-05-07"
+    },
+    {
+      "id": "vivus",
+      "name": "Vivus.js",
+      "description": "JavaScript library for SVG line drawing animations. Create signature and path reveal effects. Multiple animation types.",
+      "url": "https://maxwellito.github.io/vivus/",
+      "category": "Micro-interactions",
+      "tags": [
+        "svg",
+        "line-drawing",
+        "path",
+        "signature"
+      ],
+      "color": "#4ECDC4",
+      "pricing": "free",
+      "dateAdded": "2026-05-20"
+    },
+    {
+      "id": "mockoon",
+      "name": "Mockoon",
+      "description": "Local API mocking tool for testing and prototyping. Create mock REST APIs in seconds with a simple interface.",
+      "url": "https://mockoon.com/",
+      "category": "Documentation",
+      "tags": [
+        "api",
+        "mock",
+        "testing",
+        "rest",
+        "local"
+      ],
+      "pricing": "free",
+      "dateAdded": "2026-05-14"
+    },
+    {
+      "id": "tiny-slider",
+      "name": "Tiny Slider",
+      "description": "Vanilla JavaScript slider with hardware acceleration. No jQuery dependency, responsive, and fully customizable.",
+      "url": "https://github.com/ganlanyuan/tiny-slider",
+      "category": "Components",
+      "tags": [
+        "slider",
+        "vanilla",
+        "lightweight",
+        "responsive",
+        "no-jquery"
+      ],
+      "pricing": "free",
+      "dateAdded": "2026-05-13"
+    }
+  ]
+}
