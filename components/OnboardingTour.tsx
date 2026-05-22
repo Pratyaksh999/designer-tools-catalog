@@ -144,14 +144,16 @@ export default function OnboardingTour() {
               left: "50%",
               transform: "translate(-50%, -50%)",
               maxWidth: 500,
-              width: "90%",
+              width: "calc(100% - 32px)",
+              maxHeight: "90vh",
+              overflowY: "auto",
               background: "white",
               borderRadius: 20,
-              padding: 32,
+              padding: 24,
               boxShadow: "0 24px 64px rgba(0,0,0,0.4)",
               zIndex: 302,
             }}
-            className="dark:bg-[#0f1923]"
+            className="dark:bg-[#0f1923] md:w-[90%] md:p-8"
           >
             {/* Skip button */}
             <button
@@ -181,60 +183,61 @@ export default function OnboardingTour() {
               initial={{ rotate: -10, scale: 0.8 }}
               animate={{ rotate: 0, scale: 1 }}
               style={{
-                width: 56,
-                height: 56,
-                borderRadius: 14,
+                width: 48,
+                height: 48,
+                borderRadius: 12,
                 background: "linear-gradient(135deg, #f97316 0%, #ea580c 100%)",
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
-                marginBottom: 20,
+                marginBottom: 16,
               }}
+              className="md:w-14 md:h-14 md:mb-5"
             >
-              <Sparkles size={28} color="white" />
+              <Sparkles size={24} color="white" className="md:w-7 md:h-7" />
             </motion.div>
 
             {/* Content */}
-            <h3 style={{ fontSize: 22, fontWeight: 800, marginBottom: 12 }} className="text-gray-900 dark:text-white">
+            <h3 style={{ fontSize: 18, fontWeight: 800, marginBottom: 8 }} className="text-gray-900 dark:text-white md:text-xl md:mb-3">
               {step.title}
             </h3>
-            <p style={{ fontSize: 15, lineHeight: 1.7, marginBottom: 24 }} className="text-gray-600 dark:text-gray-400">
+            <p style={{ fontSize: 14, lineHeight: 1.6, marginBottom: 20 }} className="text-gray-600 dark:text-gray-400 md:text-base md:leading-relaxed md:mb-6">
               {step.description}
             </p>
 
             {/* Progress dots */}
-            <div style={{ display: "flex", gap: 8, marginBottom: 20 }}>
+            <div style={{ display: "flex", gap: 6, marginBottom: 16 }} className="md:gap-8 md:mb-5">
               {tourSteps.map((_, index) => (
                 <div
                   key={index}
                   style={{
                     flex: 1,
-                    height: 4,
+                    height: 3,
                     borderRadius: 2,
                     background: index <= currentStep ? "#f97316" : "rgba(0,0,0,0.1)",
                     transition: "all 0.3s",
                   }}
-                  className={index > currentStep ? "dark:bg-[rgba(255,255,255,0.1)]" : ""}
+                  className={`md:h-1 ${index > currentStep ? "dark:bg-[rgba(255,255,255,0.1)]" : ""}`}
                 />
               ))}
             </div>
 
             {/* Actions */}
-            <div style={{ display: "flex", gap: 12 }}>
+            <div style={{ display: "flex", gap: 8, flexDirection: "column" }} className="sm:flex-row sm:gap-12">
               <button
                 onClick={handleSkip}
                 style={{
                   flex: 1,
-                  padding: "12px",
-                  borderRadius: 12,
-                  fontSize: 14,
+                  padding: "10px",
+                  borderRadius: 10,
+                  fontSize: 13,
                   fontWeight: 600,
                   background: "rgba(0,0,0,0.05)",
                   border: "none",
                   cursor: "none",
                   transition: "all 0.2s",
                 }}
-                className="text-gray-700 dark:text-gray-300 dark:bg-[rgba(255,255,255,0.05)] hover:bg-[rgba(0,0,0,0.08)] dark:hover:bg-[rgba(255,255,255,0.08)]"
+                className="text-gray-700 dark:text-gray-300 dark:bg-[rgba(255,255,255,0.05)] hover:bg-[rgba(0,0,0,0.08)] dark:hover:bg-[rgba(255,255,255,0.08)] md:text-sm md:py-3"
               >
                 Skip Tour
               </button>
@@ -244,9 +247,9 @@ export default function OnboardingTour() {
                 whileTap={{ scale: 0.98 }}
                 style={{
                   flex: 1,
-                  padding: "12px",
-                  borderRadius: 12,
-                  fontSize: 14,
+                  padding: "10px",
+                  borderRadius: 10,
+                  fontSize: 13,
                   fontWeight: 700,
                   background: "linear-gradient(135deg, #f97316 0%, #ea580c 100%)",
                   color: "white",
@@ -258,6 +261,7 @@ export default function OnboardingTour() {
                   gap: 6,
                   boxShadow: "0 4px 12px rgba(249,115,22,0.3)",
                 }}
+                className="md:text-sm md:py-3"
               >
                 {currentStep < tourSteps.length - 1 ? "Next" : "Get Started"}
                 <ChevronRight size={16} />
@@ -265,8 +269,8 @@ export default function OnboardingTour() {
             </div>
 
             {/* Step counter */}
-            <div style={{ textAlign: "center", marginTop: 16 }}>
-              <span style={{ fontSize: 12, fontWeight: 600 }} className="text-gray-500 dark:text-gray-400">
+            <div style={{ textAlign: "center", marginTop: 12 }} className="md:mt-4">
+              <span style={{ fontSize: 11, fontWeight: 600 }} className="text-gray-500 dark:text-gray-400 md:text-xs">
                 {currentStep + 1} of {tourSteps.length}
               </span>
             </div>
