@@ -246,18 +246,18 @@ export default function Home() {
         onPricingChange={setPricingFilter}
       />
 
-      <main style={{ maxWidth: 1100, margin: "0 auto", padding: "96px 20px", position: "relative", zIndex: 1 }}>
+      <main style={{ maxWidth: 1100, margin: "0 auto", padding: "80px 16px", position: "relative", zIndex: 1 }} className="md:px-20 md:pt-24">
         {/* Section header */}
-        <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} style={{ marginBottom: 56 }}>
-          <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 8 }}>
-            <span style={{ color: "#f97316", fontFamily: "monospace", fontSize: 14, fontWeight: 700 }}>01.</span>
+        <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} style={{ marginBottom: 40 }} className="md:mb-14">
+          <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 8 }} className="md:gap-12">
+            <span style={{ color: "#f97316", fontFamily: "monospace", fontSize: 12, fontWeight: 700 }} className="md:text-sm">01.</span>
             <div style={{ height: 1, flex: 1, background: "linear-gradient(to right, rgba(249,115,22,0.3), transparent)" }} />
           </div>
-          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 16, marginBottom: 12 }}>
-            <h2 style={{ fontSize: "clamp(28px,4vw,42px)", fontWeight: 900, letterSpacing: "-1px" }}>
+          <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 12, marginBottom: 8 }} className="md:gap-16 md:mb-12">
+            <h2 style={{ fontSize: "clamp(24px,6vw,42px)", fontWeight: 900, letterSpacing: "-1px" }}>
               <span style={{ color: "#f97316" }}>Designer</span> <span className="text-gray-900 dark:text-white text-3d-dark">Tools</span>
             </h2>
-            <div style={{ display: "flex", gap: 12, alignItems: "center" }}>
+            <div style={{ display: "flex", gap: 8, alignItems: "center" }} className="md:gap-12">
               <SortDropdown value={sortBy} onChange={setSortBy} />
               <ViewToggle view={viewMode} onViewChange={setViewMode} />
             </div>
@@ -275,7 +275,7 @@ export default function Home() {
 
         {/* Tool grid, loading, or empty state */}
         {isLoading ? (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
             {Array.from({ length: 12 }).map((_, i) => (
               <SkeletonCard key={i} index={i} />
             ))}

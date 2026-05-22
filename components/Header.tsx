@@ -35,11 +35,17 @@ export default function Header({ onSearch, resultCount, suggestions }: HeaderPro
       }}
       className="dark:bg-[rgba(2,8,23,0.95)] dark:border-[rgba(255,255,255,0.07)]"
     >
-      <div style={{ maxWidth: 1100, margin: "0 auto", padding: "0 20px", height: 64, display: "flex", alignItems: "center", justifyContent: "space-between", gap: 20 }}>
+      <div style={{ maxWidth: 1100, margin: "0 auto", padding: "0 16px", height: 64, display: "flex", alignItems: "center", justifyContent: "space-between", gap: 12 }}>
         {/* Logo */}
-        <motion.a href="#" whileHover={{ scale: 1.05 }} style={{ fontSize: 18, fontWeight: 800, textDecoration: "none", flexShrink: 0 }}>
+        <motion.a
+          href="#"
+          whileHover={{ scale: 1.05 }}
+          style={{ fontSize: 16, fontWeight: 800, textDecoration: "none", flexShrink: 0 }}
+          className="md:text-lg"
+        >
           <span style={{ color: "#f97316" }}>Design</span>
-          <span className="text-gray-900 dark:text-white text-3d-dark">Hour</span>
+          <span className="text-gray-900 dark:text-white text-3d-dark hidden sm:inline">Hour</span>
+          <span className="text-gray-900 dark:text-white text-3d-dark sm:hidden">H</span>
         </motion.a>
 
         {/* Search */}

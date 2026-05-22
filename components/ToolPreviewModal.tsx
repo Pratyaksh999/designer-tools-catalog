@@ -77,9 +77,10 @@ export default function ToolPreviewModal({ tool, isOpen, onClose, onTagClick, si
               alignItems: "center",
               justifyContent: "center",
               zIndex: 201,
-              padding: 20,
+              padding: 16,
               overflowY: "auto",
             }}
+            className="md:p-20"
             onClick={onClose}
           >
             <motion.div
@@ -92,12 +93,12 @@ export default function ToolPreviewModal({ tool, isOpen, onClose, onTagClick, si
                 maxWidth: 700,
                 width: "100%",
                 maxHeight: "90vh",
-                borderRadius: 24,
+                borderRadius: 16,
                 overflow: "hidden",
                 boxShadow: "0 24px 64px rgba(0,0,0,0.3)",
                 position: "relative",
               }}
-              className="bg-white dark:bg-[#0f1923]"
+              className="bg-white dark:bg-[#0f1923] md:rounded-3xl"
             >
               {/* Header gradient */}
               <div
@@ -132,7 +133,7 @@ export default function ToolPreviewModal({ tool, isOpen, onClose, onTagClick, si
               </button>
 
               {/* Content */}
-              <div style={{ padding: "32px", overflowY: "auto", maxHeight: "calc(90vh - 4px)" }}>
+              <div style={{ padding: "24px", overflowY: "auto", maxHeight: "calc(90vh - 4px)" }} className="md:p-8">
                 {/* Icon + Title */}
                 <div style={{ display: "flex", alignItems: "flex-start", gap: 16, marginBottom: 24 }}>
                   <div

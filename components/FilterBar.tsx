@@ -60,11 +60,11 @@ export default function FilterBar({
   };
 
   return (
-    <div className="sticky top-[64px] z-40 bg-white/95 dark:bg-[rgba(2,8,23,0.95)] backdrop-blur-xl border-b border-gray-200 dark:border-[rgba(255,255,255,0.07)] py-4" style={{ backdropFilter: "blur(20px) saturate(180%)" }}>
-      <div style={{ maxWidth: 1100, margin: "0 auto", padding: "0 20px" }}>
+    <div className="sticky top-[64px] z-40 bg-white/95 dark:bg-[rgba(2,8,23,0.95)] backdrop-blur-xl border-b border-gray-200 dark:border-[rgba(255,255,255,0.07)] py-3 md:py-4" style={{ backdropFilter: "blur(20px) saturate(180%)" }}>
+      <div style={{ maxWidth: 1100, margin: "0 auto", padding: "0 16px" }}>
         {/* Pricing filter row */}
-        <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 12 }}>
-          <span className="text-xs font-semibold text-gray-500 dark:text-gray-500" style={{ textTransform: "uppercase", letterSpacing: "0.5px" }}>Pricing</span>
+        <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 8, overflowX: "auto" }} className="scrollbar-hide">
+          <span className="text-xs font-semibold text-gray-500 dark:text-gray-500 whitespace-nowrap" style={{ textTransform: "uppercase", letterSpacing: "0.5px" }}>Pricing</span>
           <div style={{
             position: "relative",
             display: "inline-flex",
@@ -81,9 +81,9 @@ export default function FilterBar({
                   onClick={() => onPricingChange(filter as "all" | "free" | "paid")}
                   style={{
                     position: "relative",
-                    padding: "6px 14px",
+                    padding: "6px 12px",
                     borderRadius: 7,
-                    fontSize: 13,
+                    fontSize: 12,
                     fontWeight: 600,
                     whiteSpace: "nowrap",
                     transition: "all 0.2s",
@@ -92,6 +92,7 @@ export default function FilterBar({
                     textTransform: "capitalize",
                     zIndex: 1
                   }}
+                  className="md:text-sm md:px-4"
                   className={isActive ? "text-white" : "text-gray-600 dark:text-gray-400"}
                 >
                   {filter === "all" ? "All" : filter}
@@ -108,15 +109,16 @@ export default function FilterBar({
             onClick={onToggleFavorites}
             style={{
               position: "relative",
-              padding: "8px 16px",
+              padding: "6px 12px",
               borderRadius: 10,
-              fontSize: 14,
+              fontSize: 13,
               fontWeight: showFavorites ? 700 : 500,
               whiteSpace: "nowrap",
               transition: "all 0.2s",
               background: showFavorites ? "transparent" : "transparent",
               border: "none"
             }}
+            className="md:text-sm md:px-4"
             className={showFavorites ? "text-gray-900 dark:text-white" : "text-gray-600 dark:text-gray-400"}
             onMouseEnter={(e) => {
               e.currentTarget.style.background = hoverBg;
@@ -153,15 +155,16 @@ export default function FilterBar({
                 onClick={() => onCategoryChange(category)}
                 style={{
                   position: "relative",
-                  padding: "8px 16px",
+                  padding: "6px 12px",
                   borderRadius: 10,
-                  fontSize: 14,
+                  fontSize: 13,
                   fontWeight: isActive ? 700 : 500,
                   whiteSpace: "nowrap",
                   transition: "all 0.2s",
                   background: "transparent",
                   border: "none"
                 }}
+                className="md:text-sm md:px-4"
                 className={isActive ? "text-gray-900 dark:text-white" : "text-gray-600 dark:text-gray-400"}
                 onMouseEnter={(e) => {
                   e.currentTarget.style.background = hoverBg;
