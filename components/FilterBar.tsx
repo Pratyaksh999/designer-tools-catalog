@@ -92,8 +92,7 @@ export default function FilterBar({
                     textTransform: "capitalize",
                     zIndex: 1
                   }}
-                  className="md:text-sm md:px-4"
-                  className={isActive ? "text-white" : "text-gray-600 dark:text-gray-400"}
+                  className={`md:text-sm md:px-4 ${isActive ? "text-white" : "text-gray-600 dark:text-gray-400"}`}
                 >
                   {filter === "all" ? "All" : filter}
                 </button>
@@ -118,8 +117,7 @@ export default function FilterBar({
               background: showFavorites ? "transparent" : "transparent",
               border: "none"
             }}
-            className="md:text-sm md:px-4"
-            className={showFavorites ? "text-gray-900 dark:text-white" : "text-gray-600 dark:text-gray-400"}
+            className={`md:text-sm md:px-4 ${showFavorites ? "text-gray-900 dark:text-white" : "text-gray-600 dark:text-gray-400"}`}
             onMouseEnter={(e) => {
               e.currentTarget.style.background = hoverBg;
             }}
@@ -164,8 +162,7 @@ export default function FilterBar({
                   background: "transparent",
                   border: "none"
                 }}
-                className="md:text-sm md:px-4"
-                className={isActive ? "text-gray-900 dark:text-white" : "text-gray-600 dark:text-gray-400"}
+                className={`md:text-sm md:px-4 ${isActive ? "text-gray-900 dark:text-white" : "text-gray-600 dark:text-gray-400"}`}
                 onMouseEnter={(e) => {
                   e.currentTarget.style.background = hoverBg;
                 }}
